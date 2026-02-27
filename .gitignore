@@ -1,0 +1,35 @@
+# Environment variables - NEVER commit this file
+.env
+
+# Output directory (exported notes)
+output/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MSAL token cache
+msal_token_cache.bin
